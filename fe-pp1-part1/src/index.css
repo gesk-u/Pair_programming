@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-bottom: 40px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+img {
+  width: 128px;
+  display: block;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  
+}
+
+.frame {
+  border: 2px solid black;
+  display: flex;
+  width:100%;
+  max-width: 700px;
+  
+}
+
+.text {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: left; 
+  padding: 16px 24px;      
+  gap: 4px;                
+}
+
+.text p {
+  margin: 0; /* kills the default browser margin on <p> that was causing the huge gaps */
+}
+
+.random {
+  border: 2px solid black;
+  width: 100%;
+  max-width: 500px;
+}
